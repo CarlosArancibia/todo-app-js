@@ -35,7 +35,6 @@ input.addEventListener("keyup", (event) => {
     todoList.newTodo(todo);
     createTodoHtml(todo);
     input.value = "";
-    console.log(todoList);
   }
 });
 
